@@ -1,0 +1,12 @@
+{
+	"name": "mikulas/gitcommit",
+	"description": "git commit grabber",
+	"authors": [{"name": "Mikulas Dite"}],
+	"license": ["BSD-3"],
+	"require": {
+		"php": ">=5.2.0"
+	},
+	"autoload": {
+		"files": ["GitCommit.php"]
+	}
+}
