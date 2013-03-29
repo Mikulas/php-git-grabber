@@ -20,4 +20,12 @@ class Git
         return trim($branch);
     }
 
+
+
+    public static function getTime()
+    {
+        $time = @shell_exec('git log -1 --format="%cd"');
+        return strToTime(trim($time));
+    }
+
 }
